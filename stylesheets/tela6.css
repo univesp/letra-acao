@@ -1,0 +1,30 @@
+/*///////////////////// Tela 6 ////////////////////////////////////*/
+#tela6 {
+  background-color: white;
+}
+
+#tela6>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0px;
+}
+
+#tela6>div>div:nth-of-type(2) {
+  font-size: 2rem;
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {}
+
+@media (max-width:420px) {}
+
+@media (max-width:320px) {}

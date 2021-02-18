@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="assets/fb-share.png">
+  <meta name="author" content="Univesp">
+
+  <meta name="description" property="og:description" content="">
+
+  <title>Univesp | Letra-Ação</title>
+
+  <link rel="shortcut icon" href="https://apps.univesp.br/common/favicon.ico" type="image/x-icon" />
+
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Ícones por Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Tipografia institucional por Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Animate CSS. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <link rel="stylesheet" href="https://apps.univesp.br/common/animate.css"> -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.1.css">
+  <!-- <link rel="stylesheet" href="../common/rea-geral-2.1.css">   -->
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/tela1.css">
+  <link rel="stylesheet" href="stylesheets/tela2.css">
+  <link rel="stylesheet" href="stylesheets/tela3.css">
+  <link rel="stylesheet" href="stylesheets/tela4.css">
+  <link rel="stylesheet" href="stylesheets/tela5.css">
+  <link rel="stylesheet" href="stylesheets/tela6.css">
+  <link rel="stylesheet" href="stylesheets/tela7.css">
+  <link rel="stylesheet" href="stylesheets/tela8.css">
+  <link rel="stylesheet" href="stylesheets/tela8Mob.css">
+  <link rel="stylesheet" href="stylesheets/tela9.css">
+  <link rel="stylesheet" href="stylesheets/tela9Mob.css">
+  <link rel="stylesheet" href="stylesheets/tela10.css">
+  <link rel="stylesheet" href="stylesheets/tela10Mob.css">
+  <link rel="stylesheet" href="stylesheets/tela11.css">
+  <link rel="stylesheet" href="stylesheets/tela11Mob.css">
+  <link rel="stylesheet" href="stylesheets/tela12.css">
+
+</head>
+
+<body class="d-flex flex-column">
+
+  <!-- Utilizar essa DIV caso o REA não se adapte a todos os tamanhos de tela -->
+  <!-- <div class="esconder-tela-pequena"> -->
+
+  <!-- Menu -->
+  <!--///////////////////////////////////////////////////////////////
+  Classe para nav
+  - padrão => header estático
+  - class="header-dinamico" => header possui posição fixa e é mostrado apenas quando a página está no topo (necessário ajustar padding ou margin superior e inferior do main).
+  //////////////////////////////////////////////////////////////////-->
+  <!-- <nav class="header-dinamico"> -->
+  <nav>
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo">
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/colorida-positiva.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp, sendo a letra V estilizada.">
+          <!-- outras opções de img src: colorida-negativa.svg, traco-positiva.svg, traco-negativa.svg -->
+        </a>
+      </div>
+      <!-- Compartilhamento -->
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <main id="conteudoPrincipal">
+
+    <div class="container" id='tela1'>
+      <div>
+        <div class='anotherRegular'>Letra-ação!</div>
+        <div class='quicksand'>
+          <p>Boas-vindas ao <b>REA Letra – Ação!</b> Nesta ferramenta você aprenderá como classificar as produções escritas dos estudantes nas suas respectivas hipóteses.</p>
+          <p>Como professor alfabetizador, você vai classificar as hipóteses dos estudantes de acordo com seu momento de entendimento da língua escrita.</p>
+        </div>
+        <div class='botaoLaranjinha' id='btnAvn1' data-origem='tela1' data-destino='tela2'>Começar</div>
+      </div>
+      <div>
+        <img src="assets/image_1.png" alt="">
+      </div>
+    </div>
+
+    <div class="container-fluid" id='tela2'>
+      <div class="container">
+        <div class='botaoCinzinha' id='btnVlt2' data-origem='tela2' data-destino='tela1'>Voltar</div>
+        <div class='quicksand'>
+          <p>Sabemos que alfabetizar não é uma tarefa fácil, menos ainda se o professor se confunde quanto às fases de construção da língua escrita.</p>
+          <p>Neste REA, o usuário poderá entender as distintas fases da alfabetização. Este é um desafio muito importante para entender o processo de alfabetização e o papel do docente.</p>
+        </div>
+        <div class='botaoLaranjinha' id='btnAvn2' data-origem='tela2' data-destino='tela3'>Prosseguir</div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id='tela3'>
+      <div class="container">
+        <div>
+          <div class="botaoCinzinha" id='btnVlt31' data-origem='tela3' data-destino='tela2'>Voltar</div>
+          <div class='quicksand'>
+            <p>A <b>professora Denise</b> acaba de ser contratada como substituta em uma turma do primeiro ano do Ensino Fundamental. Antes de iniciar seu planejamento, recebe a informação de que a turma está em <b>fase de alfabetização</b> e que a
+              professora anterior, <b>Marina</b>, já havia feito alguns exercícios de sondagem, porém, não classificou a fase em que cada criança estava. Em uma reunião pedagógica, Denise conversa com a professora que vai substituir. Elas duas
+              vão, juntas, entendendo a produção dos alunos.</p>
+            <p><b>Objetivo:</b> como professor(a) alfabetizador(a), você vai ajudar a professora Denise a classificar as hipóteses dos estudantes de acordo com seus momentos de construção da língua escrita.</p>
+          </div>
+          <div class='botaoLaranjinha' id='btnAvn3' data-origem='tela3' data-destino='tela4'>Prosseguir</div>
+        </div>
+        <div>
+          <div class="botaoCinzinha" id='btnVlt32' data-origem='tela3' data-destino='tela2'>Voltar</div>
+          <img src="assets/image_3.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id='tela4'>
+      <div class="container">
+        <div>
+          <div class="botaoCinzinha" id='btnVlt41' data-origem='tela4' data-destino='tela3'>Voltar</div>
+          <div class="quicksand">
+            <div class="caixaBranquinha"><b>MARINA:</b> Muito prazer. Sou a professora Marina e estou indo para o 2º B. Você é a nova professora dos estudantes do 1º, certo?</div>
+            <div class="caixaAzulzinha"><b>DENISE:</b> Muito prazer. Sou eu mesma!</div>
+            <div class="caixaBranquinha"><b>MARINA:</b> Então, esta semana fiz uma atividade de escrita com os alunos com palavras da temática "verão". Acabei de separar as produções escritas!</div>
+            <div class="caixaAzulzinha"><b>DENISE:</b> Ah, que bom! Posso vê-las? </div>
+            <div class="caixaBranquinha"><b>MARINA:</b> Sim! Temos que entender essas hipóteses. Vamos lá? Eu posso ajudá-la. </div>
+            <div class="caixaAzulzinha"><b>DENISE:</b> Claro que sim! Vamos lá. </div>
+          </div>
+          <div class="botaoLaranjinha" id='btnAvn4' data-origem='tela4' data-destino='tela5'>Prosseguir</div>
+        </div>
+
+        <div>
+          <div class="botaoCinzinha" id='btnVlt42' data-origem='tela4' data-destino='tela3'>Voltar</div>
+          <div>
+            <img src="assets/image_5.png" alt="">
+            <img src="assets/image_6.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id='tela5'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt5' data-origem='tela5' data-destino='tela4'>Voltar</div>
+        <div class='quicksand'>Antes de iniciar a classificação, gostaria de relembrar alguns aspectos de cada <b>fase de alfabetização?</b></div>
+        <div>
+          <div class='botaoLaranjinha' id='btnSimTel5' data-origem='tela5' data-destino='tela6'>SIM</div>
+          <div class='botaoCinzinha' id='btnNaoTel5' data-origem='tela5' data-destino='tela8'>NÃO</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id='tela6'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt6' data-origem='tela6' data-destino='tela5'>Voltar</div>
+        <div class='quicksand'><b>Fases da Alfabetização</b> - Emília Ferreiro</div>
+        <div class="boxAmarelo quicksand">
+          <div class="caixaCinza">
+            <div>PISCINA</div>
+            <div>
+              <img src="assets/fases_1_piscina.svg" alt="">
+            </div>
+          </div>
+          <div>
+            <div>Pré-silábica</div>
+            <div>A criança ainda não compreende que a escrita representa os sons das palavras, mas faz diversas experimentações, utilizando, desenhos e outros sinais gráficos. Demonstra intenção de escrever através do traçado linear. Usa letras do
+              próprio nome ou letras e números na mesma palavra. Tem leitura global, e a escrita é individual e instável.</div>
+          </div>
+        </div>
+        <div class="boxAmarelo quicksand">
+          <div class="caixaCinza">
+            <div>FRUTA</div>
+            <div>
+              <img src="assets/fases_2_fruta.svg" alt="">
+            </div>
+          </div>
+          <div>
+            <div>Silábica sem valor sonoro</div>
+            <div>A criança começa a perceber que existe alguma relação entre os sons das sílabas como segmentos da palavra a ser escrita, começa a desvincular a escrita das imagens e dos números das letras; conserva as hipóteses da quantidade mínima
+              e da variedade de caracteres; relaciona a escrita e a fala, para cada vez que pronuncia uma sílaba, ela escreve uma letra, porém essa letra (grafema) não tem relação com o som (fonema).</div>
+          </div>
+        </div>
+        <div class="boxAmarelo quicksand">
+          <div class="caixaCinza">
+            <div>GUARDA-SOL</div>
+            <div>
+              <img src="assets/fases_3_guarda-sol.svg" alt="">
+            </div>
+          </div>
+          <div>
+            <div>Silábica com valor sonoro</div>
+            <div>A criança já supõe que a escrita representa a fala; tenta fonetizar a escrita e dar valor sonoro as letras; já supõe que a menor unidade da língua seja a sílaba; a criança usa uma letra para cada vez que pronuncia uma sílaba, mas
+              desta vez faz relação com o fonema (som).</div>
+          </div>
+        </div>
+        <div class="boxAmarelo quicksand">
+          <div class="caixaCinza">
+            <div>BRINCAR</div>
+            <div>
+              <img src="assets/fases_4_brincar.svg" alt="">
+            </div>
+          </div>
+          <div>
+            <div>Silábica-alfabética</div>
+            <div>Esta é a hipótese intermediária em que a criança ora escreve silabicamente, ora alfabeticamente, ou seja, mistura a lógica da frase anterior com a identificação de algumas sílabas. Representar sílabas completas como representações
+              parciais da sílaba por uma só letra. A criança compreende que a escrita tem função social; compreende o modo de construção do código da escrita; não tem problemas de escrita no que se refere a conceito.</div>
+          </div>
+        </div>
+        <div class="boxAmarelo quicksand">
+          <div class="caixaCinza">
+            <div>PRAIA</div>
+            <div>
+              <img src="assets/fases_5_praia.svg" alt="">
+            </div>
+          </div>
+          <div>
+            <div>Alfabética</div>
+            <div>A criança domina o código escrito, distinguindo letras, sílabas, palavras e frases. Compreende que a escrita tem função social e compreende o modo de construção do código da escrita. Ela omite letras quando mistura as hipóteses
+              alfabética e silábica. Não tem problemas de escrita no que se refere a conceito e não é ortográfica e nem léxica.</div>
+          </div>
+        </div>
+        <div class="botaoLaranjinha" id='btnAvn6' data-origem='tela6' data-destino='tela7'>Prosseguir</div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id='tela7'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt7' data-origem='tela7' data-destino='tela6'>Voltar</div>
+        <div class='quicksand'>Complementando</div>
+
+        <div class="caixaPlus quicksand" data-link="https://novaescola.org.br/conteudo/8747/o-que-e-hipotese-silabica">
+          <div>
+            <div>
+              <i class="fas fa-plus fa-2x"></i>
+            </div>
+          </div>
+          <div>
+            <div>O que é hipótese silábica?</div>
+            <div>
+              <p>Rodrigo Ratier e Pedro Annunciato</p>
+              <p>Site: Nova Escola</p>
+            </div>
+          </div>
+        </div>
+        <div class="caixaPlus quicksand" data-link="https://educacaopublica.cecierj.edu.br/artigos/15/11/emilia-ferreiro-ana-teberosky-e-a-gnese-da-lngua-escrita">
+          <div>
+            <div>
+              <i class="fas fa-plus fa-2x"></i>
+            </div>
+          </div>
+          <div>
+            <div>Emilia Ferreiro, Ana Teberosky e a gênese da língua escrita</div>
+            <div>
+              <p>Priscila Maria Romero Barbosa</p>
+              <p>Site: Educação Pública</p>
+            </div>
+          </div>
+        </div>
+        <div class="caixaPlus quicksand" data-link="https://novaescola.org.br/conteudo/9766/blog-alfabetizacao-hipoteses-escrita-pre-silabico-silabico-como-avancar">
+          <div>
+            <div>
+              <i class="fas fa-plus fa-2x"></i>
+            </div>
+          </div>
+          <div>
+            <div>Hipóteses de escrita de alunos pré-silábicos e silábicos: como fazê-los avançar</div>
+            <div>
+              <p>Mara Mansani</p>
+              <p>Site: Nova Escola</p>
+            </div>
+          </div>
+        </div>
+        <div class="caixaPlus quicksand" data-link="https://novaescola.org.br/conteudo/18904/como-estabelecer-metas-de-alfabetizacao-para-minha-turma">
+          <div>
+            <div>
+              <i class="fas fa-plus fa-2x"></i>
+            </div>
+          </div>
+          <div>
+            <div>Como estabelecer metas de alfabetização para + minha turma?</div>
+            <div>
+              <p>Mara Mansani</p>
+              <p>Site: Nova Escola</p>
+            </div>
+          </div>
+        </div>
+        <div class="botaoLaranjinha" id='btnAvn7' data-origem='tela7' data-destino='tela8'>Prosseguir</div>
+      </div>
+    </div>
+
+    <div class="container-fluid quicksand" id='tela8'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt8' data-origem='tela8' data-destino='tela7'>Voltar</div>
+        <div>Analisando a escrita dos estudantes - 1ª fase</div>
+        <div>Os alunos e alunas do primeiro ano do Ensino Fundamental fizeram uma atividade de escrita. Nessa primeira fase, todos escreveram a palavra FAMÍLIA. Você verá o que os(as) alunos(as) entregaram e será seu papel analisar os escritos e, então, atribuir alguma hipótese. Para isso, arraste a atividade para a respectiva coluna.
+        </div>
+        <div class="caixaArrastaDestino">
+          <div>
+            <div>Pré-silábico</div>
+            <div data-destino="pre-silabico" data-fase="1"></div>
+          </div>
+          <div>
+            <div>Silábico sem valor sonoro</div>
+            <div data-destino="silabico-sem-valor-sonoro" data-fase="1"></div>
+          </div>
+          <div>
+            <div>Silábico com valor sonoro</div>
+            <div data-destino="silabico-com-valor-sonoro" data-fase="1"></div>
+          </div>
+          <div>
+            <div>Silábico-alfabético</div>
+            <div data-destino="silabico-alfabetico" data-fase="1"></div>
+          </div>
+          <div>
+            <div>Alfabético</div>
+            <div data-destino="alfabetico" data-fase="1"></div>
+          </div>
+        </div>
+
+        <div class="caixaArrastaLocal">
+          <div class="bloquinho" data-nome2='FAMÍLIA' data-origem="Mayara" data-fase="1" data-posicionado="0" data-src='atividade01_família01_mayara.svg'>
+            <div>Mayara</div>
+            <div>FAMÍLIA</div>
+            <div>
+              <img src="assets/atividade01_família01_mayara.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='FAMÍLIA' data-origem="Alex" data-fase="1" data-posicionado="0" data-src='atividade01_família02_alex.svg'>
+            <div>Alex</div>
+            <div>FAMÍLIA</div>
+            <div>
+              <img src="assets/atividade01_família02_alex.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='FAMÍLIA' data-origem="Giulia" data-fase="1" data-posicionado="0" data-src='atividade01_família03_giulia.svg'>
+            <div>Giulia</div>
+            <div>FAMÍLIA</div>
+            <div>
+              <img src="assets/atividade01_família03_giulia.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='FAMÍLIA' data-origem="Bruno" data-fase="1" data-posicionado="0" data-src='atividade01_família04_bruno.svg'>
+            <div>Bruno</div>
+            <div>FAMÍLIA</div>
+            <div>
+              <img src="assets/atividade01_família04_bruno.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='FAMÍLIA' data-origem="Bia" data-fase="1" data-posicionado="0" data-src='atividade01_família05_bia.svg'>
+            <div>Bia</div>
+            <div>FAMÍLIA</div>
+            <div>
+              <img src="assets/atividade01_família05_bia.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="botaoLaranjinha" id='btnAvn8' data-origem='tela8' data-destino='tela9'>Prosseguir</div>
+      </div>
+    </div>
+
+    <div class="container-fluid quicksand" id='tela8Mob'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt8Mob' data-destino="tela7" data-origem="tela8Mob">Voltar</div>
+        <div class="">Os alunos e alunas do primeiro ano do Ensino Fundamental fizeram uma atividade de escrita. Nessa primeira fase, todos escreveram a palavra <b>FAMÍLIA</b>. Você verá o que os(as) alunos(as) entregaram e será seu papel analisar os escritos e, então, atribuir alguma hipótese. <span class='celular'>Para isso, arraste a atividade para a respectiva coluna.</span></div>
+        <div class="carrossel">
+
+          <div class="caixaCarrossel">
+            <div>
+              <div class='setaEsquerda'>
+                <i class="fas fa-chevron-left fa-3x"></i>
+              </div>
+
+
+              <div class="bloquinho" data-nome1 = "Mayara" data-nome2 = "FAMÍLIA" data-gab = "Pré-silábico" data-src='atividade01_família01_mayara.svg'>
+                <div>Mayara</div>
+                <div>FAMÍLIA</div>
+                <div>
+                  <img src="assets/atividade01_família01_mayara.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Alex" data-nome2 = "FAMÍLIA" data-gab = "Silábico sem valor sonoro" data-src='atividade01_família02_alex.svg'>
+                <div>Alex</div>
+                <div>FAMÍLIA</div>
+                <div>
+                  <img src="assets/atividade01_família02_alex.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Giulia" data-nome2 = "FAMÍLIA" data-gab = "Silábico com valor sonoro" data-src='atividade01_família03_giulia.svg'>
+                <div>Giulia</div>
+                <div>FAMÍLIA</div>
+                <div>
+                  <img src="assets/atividade01_família03_giulia.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Bruno" data-nome2 = "FAMÍLIA" data-gab = "Silábico-alfabético" data-src='atividade01_família04_bruno.svg'>
+                <div>Bruno</div>
+                <div>FAMÍLIA</div>
+                <div>
+                  <img src="assets/atividade01_família04_bruno.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Bia" data-nome2 = "FAMÍLIA" data-gab = "Alfabético" data-src='atividade01_família05_bia.svg'>
+                <div>Bia</div>
+                <div>FAMÍLIA</div>
+                <div>
+                  <img src="assets/atividade01_família05_bia.svg" alt="">
+                </div>
+              </div>
+
+              <div class='setaDireita'>
+                <i class="fas fa-chevron-right fa-3x"></i>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="caixaAltTela8">
+          <div data-ordem="1" data-gab='1'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="2" data-gab='2'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="3" data-gab='3'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="4" data-gab='4'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="5" data-gab='5'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+        </div>
+        <div class="botaoLaranjinha" id='btnAvn8Mob' data-destino="tela9Mob" data-origem="tela8Mob">Prosseguir</div>
+      </div>
+    </div>
+
+    <div class="container quicksand" id='tela9'>
+      <div class="botaoCinzinha" id='btnVlt9' data-origem='tela9' data-destino='tela8'>Refazer</div>
+      <div>Considerações sobre a análise - 1ª fase</div>
+      <div>A professora Marina viu sua análise e tem algumas considerações a fazer! Clique em cada uma das atividades avaliadas e preste atenção no comentário da professora. </div>
+      <div class="caixaArrastaDestino">
+        <div>
+          <div>Pré-silábico</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Silábico sem valor sonoro</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Silábico com valor sonoro</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Silábico-alfabético</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Alfabético</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="caixaMensagem">
+        <div>
+          <img src="assets/marina_icone_01.svg" alt="">
+        </div>
+        <div>
+          <div>Pré-silábico</div>
+          <div><b>MARINA:</b> Parabéns! A criança com a hipótese pré-silábica realmente ainda não compreende que a escrita representa os sons das palavras, por isso faz desenhos aleatórios, confundindo geralmente letras com números. A intervenção
+            do
+            professor é, a partir desta hipótese, promover o novo passo para que ela possa entender o valor sonoro das letras y das sílabas
+          </div>
+        </div>
+      </div>
+
+
+      <div class="botaoLaranjinha" id='btnAvn9' data-origem='tela9' data-destino='tela10'>Prosseguir</div>
+    </div>
+
+    <div class="container quicksand" id='tela9Mob'>
+      <div class="botaoCinzinha" id='btnVlt9Mob' data-destino="tela8Mob" data-origem="tela9Mob">Refazer</div>
+      <div>Considerações sobre a análise - 1ª fase</div>
+      <div>A professora Marina viu sua análise e tem algumas considerações a fazer! Clique em cada uma das atividades avaliadas e preste atenção no comentário da professora.</div>
+      <div class="carrossel">
+        <div class="caixaCarrossel">
+          <div>
+            <div class='setaEsquerda'>
+              <i class="fas fa-chevron-left fa-3x"></i>
+            </div>
+            <div class="bloquinho selecionado" data-ordem='1' data-src='atividade01_família01_mayara.svg'>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='2' data-src='atividade01_família02_alex.svg'>
+              <div>Alex</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família02_alex.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='3' data-src='atividade01_família03_giulia.svg'>
+              <div>Giulia</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família03_giulia.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='4' data-src='atividade01_família04_bruno.svg'>
+              <div>Bruno</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família04_bruno.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='5' data-src='atividade01_família05_bia.svg'>
+              <div>Bia</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família05_bia.svg" alt="">
+              </div>
+            </div>
+
+            <div class='setaDireita'>
+              <i class="fas fa-chevron-right fa-3x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="caixaAltTela9">
+        <div data-ordem="1">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="2">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="3">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="4">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="5">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+      </div>
+      <img id = 'imgTela9Mob' src="assets/marina_icone_01.svg" alt="">
+
+      <div id = 'txtTela9Mob'>
+        <p>Pré-silábico</p>
+        <p>MARINA: Parabéns! A criança com a hipótese pré-silábica realmente ainda não compreende que a escrita representa os sons das palavras, por isso faz desenhos aleatórios, confundindo geralmente letras com números. A intervenção do professor é, a partir desta hipótese, promover o novo passo para que ela possa entender o valor sonoro das letras e das sílabas</p>
+      </div>
+
+      <div class="botaoLaranjinha" id='btnAvn9Mob' data-destino="tela10Mob" data-origem="tela9Mob">Prosseguir</div>
+    </div>
+
+    <div class="container-fluid quicksand" id='tela10'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt10' data-destino='tela9' data-origem='tela10'>Voltar</div>
+        <div>Analisando a escrita dos estudantes - 2ª fase</div>
+        <div>Agora que já teve o primeiro contato com os alunos e suas escritas a partir da palavra FAMÍLIA, analise outras atividades entregues pela turma, nas quais tentaram escrever palavras diversas. Para isso, arraste a atividade para a respectiva coluna.</div>
+        <div class="caixaArrastaDestino">
+          <div>
+            <div>Pré-silábico</div>
+            <div data-destino="pre-silabico" data-fase="2"></div>
+          </div>
+          <div>
+            <div>Silábico sem valor sonoro</div>
+            <div data-destino="silabico-sem-valor-sonoro" data-fase="2"></div>
+          </div>
+          <div>
+            <div>Silábico com valor sonoro</div>
+            <div data-destino="silabico-com-valor-sonoro" data-fase="2"></div>
+          </div>
+          <div>
+            <div>Silábico-alfabético</div>
+            <div data-destino="silabico-alfabetico" data-fase="2"></div>
+          </div>
+          <div>
+            <div>Alfabético</div>
+            <div data-destino="alfabetico" data-fase="2"></div>
+          </div>
+        </div>
+
+        <div class="caixaArrastaLocal">
+          <div class="bloquinho" data-nome2='PICOLÉ' data-origem="Erica" data-fase="2" data-posicionado="0" data-src="atividade02_01_picole.svg">
+            <div>Érica</div>
+            <div>PICOLÉ</div>
+            <div>
+              <img src="assets/atividade02_01_picole.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='MAR' data-origem="Isabela" data-fase="2" data-posicionado="0" data-src="atividade02_02_mar.svg">
+            <div>Isabela</div>
+            <div>MAR</div>
+            <div>
+              <img src="assets/atividade02_02_mar.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='AREIA' data-origem="Felipe" data-fase="2" data-posicionado="0" data-src="atividade02_03_areia.svg">
+            <div>Felipe</div>
+            <div>AREIA</div>
+            <div>
+              <img src="assets/atividade02_03_areia.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='CALOR' data-origem="Pedro" data-fase="2" data-posicionado="0" data-src="atividade02_04_calor.svg">
+            <div>Pedro</div>
+            <div>CALOR</div>
+            <div>
+              <img src="assets/atividade02_04_calor.svg" alt="">
+            </div>
+          </div>
+          <div class="bloquinho" data-nome2='SUCO' data-origem="Gerson" data-fase="2" data-posicionado="0" data-src="atividade02_05_suco.svg">
+            <div>Gerson</div>
+            <div>SUCO</div>
+            <div>
+              <img src="assets/atividade02_05_suco.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="botaoLaranjinha" id='btnAvn10' data-destino='tela11' data-origem='tela10'>Prosseguir</div>
+      </div>
+    </div>
+
+    <div class="container-fluid quicksand" id='tela10Mob'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt10Mob' data-destino="tela9Mob" data-origem="tela10Mob">Voltar</div>
+        <div class="">Analisando a escrita dos estudantes - 2ª fase</div>
+        <div class="">Agora que já teve o primeiro contato com os alunos e suas escritas a partir da palavra FAMÍLIA, analise outras atividades entregues pela turma, nas quais tentaram escrever palavras diversas. <span class='celular'>Para isso, arraste a atividade para a respectiva coluna.</span></div>
+        <div class="carrossel">
+
+          <div class="caixaCarrossel">
+            <div>
+              <div class='setaEsquerda'>
+                <i class="fas fa-chevron-left fa-3x"></i>
+              </div>
+
+
+              <div class="bloquinho" data-nome1 = "Érica" data-nome2 = "PICOLÉ" data-gab = "Pré-silábico" data-src='atividade02_01_picole.svg'>
+                <div>Érica</div>
+                <div>PICOLÉ</div>
+                <div>
+                  <img src="assets/atividade02_01_picole.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Isabela" data-nome2 = "MAR" data-gab = "Silábico sem valor sonoro" data-src='atividade02_02_mar.svg'>
+                <div>Isabela</div>
+                <div>MAR</div>
+                <div>
+                  <img src="assets/atividade02_02_mar.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Felipe" data-nome2 = "AREIA" data-gab = "Silábico com valor sonoro" data-src='atividade02_03_areia.svg'>
+                <div>Felipe</div>
+                <div>AREIA</div>
+                <div>
+                  <img src="assets/atividade02_03_areia.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Pedro" data-nome2 = "CALOR" data-gab = "Silábico-alfabético" data-src='atividade02_04_calor.svg'>
+                <div>Pedro</div>
+                <div>CALOR</div>
+                <div>
+                  <img src="assets/atividade02_04_calor.svg" alt="">
+                </div>
+              </div>
+              <div class="bloquinho" data-nome1 = "Gerson" data-nome2 = "SUCO" data-gab = "Alfabético" data-src='atividade02_05_suco.svg'>
+                <div>Gerson</div>
+                <div>SUCO</div>
+                <div>
+                  <img src="assets/atividade02_05_suco.svg" alt="">
+                </div>
+              </div>
+
+              <div class='setaDireita'>
+                <i class="fas fa-chevron-right fa-3x"></i>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="caixaAltTela10">
+          <div data-ordem="1" data-gab='1'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="2" data-gab='2'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="3" data-gab='3'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="4" data-gab='4'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+          <div data-ordem="5" data-gab='5'>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Pré-silábico</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico sem valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico com valor sonoro</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Silábico-alfabético</div>
+            </div>
+            <div>
+              <div class="bolinha"></div>
+              <div class="texto">Alfabético</div>
+            </div>
+          </div>
+        </div>
+        <div class="botaoLaranjinha" id='btnAvn10Mob' data-destino="tela11Mob" data-origem="tela10Mob">Prosseguir</div>
+      </div>
+    </div>
+
+    <div class="container quicksand" id='tela11'>
+      <div class="botaoCinzinha" id='btnVlt11' data-destino='tela10' data-origem='tela11'>Refazer</div>
+      <div>Considerações sobre a análise - 2ª fase</div>
+      <div>A professora Marina viu sua análise e tem algumas considerações a fazer! Clique em cada uma das atividades avaliadas e preste atenção no comentário da professora.</div>
+      <div class="caixaArrastaDestino">
+        <div>
+          <div>Pré-silábico</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Silábico sem valor sonoro</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Silábico com valor sonoro</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Silábico-alfabético</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>Alfabético</div>
+          <div>
+            <div class="bloquinho">
+              <span class='acertou'>
+                <i class="fas fa-check"></i>
+              </span>
+              <span class='errou'>
+                <i class="fas fa-times"></i>
+              </span>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="caixaMensagem">
+        <div>
+          <img src="assets/marina_icone_01.svg" alt="">
+        </div>
+        <div>
+          <div>Pré-silábico</div>
+          <div><b>MARINA:</b> Parabéns! A criança com a hipótese pré-silábica realmente ainda não compreende que a escrita representa os sons das palavras, por isso faz desenhos aleatórios, confundindo geralmente letras com números. A intervenção
+            do
+            professor é, a partir desta hipótese, promover o novo passo para que ela possa entender o valor sonoro das letras y das sílabas
+          </div>
+        </div>
+      </div>
+
+
+      <div class="botaoLaranjinha" id='btnAvn11' data-destino='tela12' data-origem='tela11'>Prosseguir</div>
+    </div>
+
+    <div class="container quicksand" id='tela11Mob'>
+      <div class="botaoCinzinha" id='btnVlt11Mob' data-destino="tela10Mob" data-origem="tela11Mob">Refazer</div>
+      <div>Considerações sobre a análise - 2ª fase</div>
+      <div>A professora Marina viu sua análise e tem algumas considerações a fazer! Clique em cada uma das atividades avaliadas e preste atenção no comentário da professora.</div>
+      <div class="carrossel">
+        <div class="caixaCarrossel">
+          <div>
+            <div class='setaEsquerda'>
+              <i class="fas fa-chevron-left fa-3x"></i>
+            </div>
+            <div class="bloquinho selecionado" data-ordem='1' data-src='atividade01_família01_mayara.svg'>
+              <div>Mayara</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família01_mayara.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='2' data-src='atividade01_família02_alex.svg'>
+              <div>Alex</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família02_alex.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='3' data-src='atividade01_família03_giulia.svg'>
+              <div>Giulia</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família03_giulia.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='4' data-src='atividade01_família04_bruno.svg'>
+              <div>Bruno</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família04_bruno.svg" alt="">
+              </div>
+            </div>
+            <div class="bloquinho" data-ordem='5' data-src='atividade01_família05_bia.svg'>
+              <div>Bia</div>
+              <div>FAMÍLIA</div>
+              <div>
+                <img src="assets/atividade01_família05_bia.svg" alt="">
+              </div>
+            </div>
+
+            <div class='setaDireita'>
+              <i class="fas fa-chevron-right fa-3x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="caixaAltTela11">
+        <div data-ordem="1">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="2">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="3">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="4">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+        <div data-ordem="5">
+          <div data-gab = 'Pré-silábico'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Pré-silábico</div>
+          </div>
+          <div data-gab = 'Silábico sem valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico sem valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico com valor sonoro'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico com valor sonoro</div>
+          </div>
+          <div data-gab = 'Silábico-alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Silábico-alfabético</div>
+          </div>
+          <div data-gab = 'Alfabético'>
+            <div class="bolinha">
+              <div></div>
+            </div>
+            <div class="texto">Alfabético</div>
+          </div>
+        </div>
+      </div>
+      <img id = 'imgTela11Mob' src="assets/marina_icone_01.svg" alt="">
+
+      <div id = 'txtTela11Mob'>
+        <p>Pré-silábico</p>
+        <p>MARINA: Parabéns! A criança com a hipótese pré-silábica realmente ainda não compreende que a escrita representa os sons das palavras, por isso faz desenhos aleatórios, confundindo geralmente letras com números. A intervenção do professor é, a partir desta hipótese, promover o novo passo para que ela possa entender o valor sonoro das letras e das sílabas</p>
+      </div>
+
+      <div class="botaoLaranjinha" id='btnAvn11Mob' data-destino="tela12" data-origem="tela11Mob">Prosseguir</div>
+    </div>
+
+    <div class="container-fluid quicksand" id='tela12'>
+      <div class="container">
+        <div class="botaoCinzinha" id='btnVlt12' data-destino='tela11' data-origem='tela12'>Voltar</div>
+        <div>É importante sistematizar o nosso conhecimento. Vamos lá! Caso queira imprimir, pressione o botão abaixo. </div>
+        <div class="botaoLaranjinha">Imprimir</div>
+        <div>Muito bem! Esperamos que você tenha entendido sobre o processo de construção de conhecimento na escrita. Lembre-se que a sondagem diagnóstica é atividade essencial, que capacita o educador a conhecer as hipóteses das crianças envolvidas no processo de alfabetização. Deve-se realizar sondagens periodicamente, de modo a permitir que o professor realize um trabalho de acordo com a hipótese da criança. </div>
+        <div>Até a próxima! Equipe Univesp</div>
+        <div class="botaoLaranjinha">Reiniciar</div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <!--//////////////////////////////////////////////////////
+  Classes prontas p/ footer (podem ser combinadas):
+  padrão => texto e contornos em cinza
+  class = "black" => texto e contornos em preto
+  class = "negativo" => texto e contornos em branco, sobre fundo escuro
+  class = "transparente" => fundo transparente (necessário ajustar cor dos ícones de compartilhamento nos círculos, para bater com a cor de fundo)
+  /////////////////////////////////////////////////////////-->
+  <!-- <footer class="black"> -->
+  <!-- <footer class="negativo"> -->
+  <!-- <footer class="transparente"> -->
+  <!-- <footer class="transparente black"> -->
+  <!-- <footer class="transparente negativo"> -->
+  <footer>
+    <div class="container d-flex justify-content-between">
+
+      <div class="cred-rea">
+        <!-- Comente em caso de adaptação do REA -->
+        <div>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2020.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</div>
+        <div><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></div>
+        <!-- <div><a href="#" target="_blank" aria-label="GitHub" style="white-space:nowrap;">GitHub <i class="fab fa-github"></i></a></div> -->
+        <div>Compartilhe: <div class="sharing"></div>
+        </div>
+
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+          <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+          <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <!-- FORMULÁRIOS DE AVALIAÇÃO -->
+      <div class="aval-rea d-flex">
+        <!-- AVALIAR RECURSO -->
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSeExDsOm9oX97axL6CepBa-Wx0OfedQ-kenUk0z1OTDNNn7zA/viewform?usp=pp_url&entry.542052009=Letra+Ação" target="_blank">Avaliar este recurso</a>
+        <!-- REPORTAR ERRO -->
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSdFLgjeKzYIVOGzimFaAtqgaH9gKg2edl-QvniOum0yyQP5Ww/viewform?usp=pp_url&entry.1523910789=Letra+Ação" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+  <!-- Fim da div .esconder-tela-pequena
+  Utilizar essa div caso o REA não se adapte a todos os formatos de tela -->
+  <!-- </div> -->
+
+  <!-- //////////////////////////////////////////////////////////
+  AVISO =+960px
+  Utilizar caso o REA possua limitações quanto aos tamanhos de tela
+  Caso contrário, deletar
+  ///////////////////////////////////////////////////////////////-->
+  <!-- <div class= "container d-lg-none text-center">
+    <div class="container">
+      <a href="https://univesp.br/" target="_blank">
+        <img src="https://apps.univesp.br/common/logo-univesp-positivo.svg" alt="Logo da Univesp" height="47px" width="135px" class='img-responsive center-block' style="margin-top:4rem">
+      </a>
+    </div>
+    <img src='https://apps.univesp.br/common/aviso-tela.gif' alt="Computador Animado" height="117px" width="160px" class='img-responsive center-block' style="margin-top:3rem">
+    <div style="margin-top:.5rem">
+      <p>
+        <font style=font-family:"Barlow" color="#3b78d1" 'text-center' size="10rem"><b>OPS!</b></font>
+      </p>
+      <p>
+        <font style=font-family:"Verdana" "text-center" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 992px.</font>
+      </p>
+    </div>
+  </div> -->
+
+  <!-- CRÉDITOS -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Desenvolvimento Econômico</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <p><span class="funcao">Presidente</span>Rodolfo Jardim de Azevedo</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Simone Telles Martins Ramos</p>
+
+          <h6>Equipe</h6>
+          <!-- <p><span class="funcao">Docente responsável</span>Fulano de Tal</p> -->
+          <p><span class="funcao">Coordenação</span>Édison Trombeta</p>
+          <p><span class="funcao">Roteirização e Design Instrucional</span>Roberta Flaborea Favaro e Letícia Martins</p>
+          <p><span class="funcao">Ilustração e Layout</span>Henrique Inhauser Caldas</p>
+          <p><span class="funcao">Programação</span>Alberto Ortiz</p>
+          <p><span class="funcao">Revisão</span>July Santos</p>
+
+        </div>
+        <div class="modal-footer">
+          <p>Novembro/2020</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+    var share = $(".sharing");
+    var page_title = $(document).attr('title');
+    var page_url = window.location.href;
+    share.jsSocials({
+      shares: [{
+          share: "facebook",
+          logo: "fab fa-facebook-f",
+        },
+        {
+          share: "twitter",
+          logo: "fab fa-twitter",
+        },
+        {
+          share: "whatsapp",
+          logo: "fab fa-whatsapp",
+        },
+      ],
+      url: page_url,
+      text: 'Confira o REA ' + page_title + '.',
+      showLabel: false,
+      showCount: false,
+      shareIn: "popup",
+    });
+  </script>
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="javascripts/events.js"></script>
+  <script type="text/javascript" src="javascripts/arrasta.js"></script>
+  <script type="text/javascript" src="javascripts/mltEsc.js"></script>
+  <script type="text/javascript" src="javascripts/navegacao.js"></script>
+
+  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+
+</body>
+
+</html>

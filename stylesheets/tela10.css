@@ -1,0 +1,52 @@
+/*///////////////////// Tela 8 ////////////////////////////////////*/
+#tela10 {
+  background-color: white;
+}
+
+#btnAvn10{
+  display: none;
+}
+
+#tela10>div {
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+#tela10>div>div:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 25px 0px;
+}
+
+#tela10>div>div:nth-of-type(3) {
+  width: 60%;
+  margin: 20px 0px;
+}
+
+#tela10 .bloquinho>div:nth-of-type(3)>img:nth-of-type(1){
+  height: 60%;
+}
+
+#tela10 .caixaArrastaLocal > div{
+  width: 14%;
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {
+  #tela10{
+    display: none;
+  }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {}
+
+@media (max-width:420px) {}
+
+@media (max-width:320px) {}

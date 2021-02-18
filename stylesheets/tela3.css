@@ -1,0 +1,109 @@
+/*////////////////////////////// Tela 3 ///////////////////////////////*/
+#tela3 {
+  background-color: white;
+}
+
+#tela3>div {
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+#tela3>div>div:nth-of-type(1) {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#tela3>div>div:nth-of-type(1)>*{
+  margin: 25px 0px;
+}
+
+#tela3>div>div:nth-of-type(2) {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tela3>div>div:nth-of-type(2)>.botaoCinzinha {
+  display: none;
+}
+
+#tela3>div>div:nth-of-type(2)>img {
+  width: 100%;
+}
+
+
+@media (max-width:1200px) {
+  /*///////////////////// Tela 3 ////////////////////////////////////*/
+  #tela3>div>div:nth-of-type(1) {
+    width: 47%;
+  }
+
+  #tela3>div>div:nth-of-type(2) {
+    width: 47%;
+  }
+}
+
+@media (max-width:992px) {
+  /*///////////////////// Tela 3 ////////////////////////////////////*/
+  #tela3>div {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  #tela3>div>div:nth-of-type(1) {
+    width: 100%;
+  }
+
+  #tela3>div>div:nth-of-type(1)>.botaoCinzinha {
+    display: none;
+  }
+
+  #tela3>div>div:nth-of-type(1)>.botaoLaranjinha {
+    margin-top: 25px;
+  }
+
+  #tela3>div>div:nth-of-type(2) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0px;
+  }
+
+  #tela3>div>div:nth-of-type(2)>.botaoCinzinha {
+    display: initial;
+  }
+
+  #tela3>div>div:nth-of-type(2)>img {
+    width: 65%;
+    margin-top: 50px;
+  }
+
+  #tela3>div {
+    padding: 50px 0px;
+  }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {
+  /*///////////////////// Tela 3 ////////////////////////////////////*/
+  #tela3>div>div:nth-of-type(2)>img {
+    width: 75%;
+  }
+}
+
+@media (max-width:420px) {
+  /*///////////////////// Tela 3 ////////////////////////////////////*/
+  #tela3>div>div:nth-of-type(2)>img {
+    width: 100%;
+  }
+}
+
+@media (max-width:320px) {}

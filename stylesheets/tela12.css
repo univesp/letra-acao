@@ -1,0 +1,57 @@
+#tela12 {
+  background-color: white;
+}
+
+#tela12>.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+#tela12>.container>* {
+  margin-top: 50px;
+}
+
+#tela12>.container>div:nth-of-type(2) {
+  text-align: center;
+}
+
+#tela12>.container>div:nth-of-type(4) {
+  width: 70%;
+  text-align: center;
+}
+
+#tela12>.container>div:nth-of-type(5) {
+  width: 120px;
+  text-align: center;
+}
+
+#tela12>.container>div:nth-of-type(6) {
+  margin-bottom: 50px;
+}
+
+#tela2, #tela3, #tela4, #tela5, #tela6, #tela7, #tela8, #tela9, #tela10, #tela11, #tela12{
+  display: none;
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {
+  #tela12>.container>div:nth-of-type(4) {
+    width: 90%;
+  }
+}
+
+@media (max-width:768px) {
+  #tela12>.container>div:nth-of-type(4) {
+    width: 100%;
+  }
+}
+
+@media (max-width:576px) {}
+
+@media (max-width:420px) {}
+
+@media (max-width:320px) {}

@@ -1,0 +1,33 @@
+
+/*///////////////////// Tela 7 ////////////////////////////////////*/
+#tela7 {
+  background-color: white;
+  min-height: 100vh;
+}
+
+#tela7>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0px;
+  min-height: 100vh;
+}
+
+#tela7>div>div:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 50px 0px;
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {}
+
+@media (max-width:420px) {}
+
+@media (max-width:320px) {}

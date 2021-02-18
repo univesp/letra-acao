@@ -1,0 +1,161 @@
+/*////////////////////////////// Tela 4 ///////////////////////////////*/
+#tela4 {
+  background-image: url(../assets/image_4.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#tela4>div {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+#tela4>div>div:nth-of-type(1) {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#tela4>div>div:nth-of-type(1)>.botaoCinzinha {
+  margin-bottom: 25px;
+}
+
+#tela4>div>div:nth-of-type(1)>.botaoLaranjinha {
+  margin-top: 15px;
+}
+
+#tela4>div>div:nth-of-type(2) {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#tela4>div>div:nth-of-type(2)>div:nth-of-type(2) {
+  display: flex;
+  width: 100%;
+}
+
+#tela4>div>div:nth-of-type(2)>.botaoCinzinha {
+  display: none;
+}
+
+#tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(1) {
+  height: 400px;
+}
+
+#tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(2) {
+  height: 400px;
+}
+
+@media (max-width:1200px) {
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(1) {
+    height: 300px;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(2) {
+    height: 300px;
+  }
+}
+
+@media (max-width:992px) {
+  #tela4 {
+    background-image: initial;
+  }
+
+  #tela4>div>div:nth-of-type(2) {
+    background-image: url(../assets/image_4.png);
+    background-size: cover;
+  }
+
+  #tela4>div {
+    flex-direction: column-reverse;
+    justify-content: initial;
+  }
+
+  #tela4>div>div:nth-of-type(1) {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #tela4>div>div:nth-of-type(1)>.botaoCinzinha {
+    display: none;
+  }
+
+  #tela4>div>div:nth-of-type(2) {
+    width: 100%;
+  }
+
+  #tela4>div>div:nth-of-type(2)>.botaoCinzinha {
+    display: initial;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2) {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(1) {
+    height: 350px;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(2) {
+    height: 350px;
+  }
+
+  .caixaPlus {
+    width: 75%;
+  }
+}
+
+@media (max-width:768px) {
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(1) {
+    height: 250px;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(2) {
+    height: 250px;
+  }
+}
+
+@media (max-width:576px) {
+
+  /*///////////////////// Tela 4 ////////////////////////////////////*/
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(1) {
+    height: 200px;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(2) {
+    height: 200px;
+  }
+
+  .caixaPlus {
+    width: 100%;
+  }
+}
+
+@media (max-width:420px) {
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(1) {
+    height: 150px;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(2) {
+    height: 150px;
+  }
+}
+
+@media (max-width:320px) {
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(1) {
+    height: 100px;
+  }
+
+  #tela4>div>div:nth-of-type(2)>div:nth-of-type(2)>img:nth-of-type(2) {
+    height: 100px;
+  }
+}

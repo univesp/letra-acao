@@ -1,0 +1,70 @@
+/*////////////////////////////// Tela 2 ///////////////////////////////*/
+#tela2 {
+  background-image: url(../assets/image_2.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#tela2>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+#tela2>div>*{
+  margin: 25px 0px;
+}
+
+#tela2>div>div:nth-of-type(2) {
+  width: 50%;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+#tela2>div>div:nth-of-type(2)>p {
+  margin-bottom: 0px;
+}
+
+#tela2 .botaoLaranjinha{
+  margin-bottom: 50px;
+}
+
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {
+  /*///////////////////// Tela 2 ////////////////////////////////////*/
+  #tela2>div>div:nth-of-type(2) {
+    width: 60%;
+  }
+}
+
+@media (max-width:768px) {
+  /*///////////////////// Tela 2 ////////////////////////////////////*/
+  #tela2>div>div:nth-of-type(2) {
+    width: 75%;
+  }
+
+  .caixaPlus {
+    width: 85%;
+  }
+}
+
+@media (max-width:576px) {
+  /*///////////////////// Tela 2 ////////////////////////////////////*/
+  #tela2>div>div:nth-of-type(2) {
+    width: 90%;
+  }
+}
+
+@media (max-width:420px) {
+  /*///////////////////// Tela 2 ////////////////////////////////////*/
+  #tela2>div>div:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+@media (max-width:320px) {}

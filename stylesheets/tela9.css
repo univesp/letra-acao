@@ -1,0 +1,110 @@
+/*///////////////////// Tela 9 ////////////////////////////////////*/
+#tela9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tela9>* {
+  margin-top: 30px;
+}
+
+#tela9>div:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#tela9>div:nth-of-type(3) {
+  width: 57%;
+  text-align: center;
+  max-width: 632px;
+}
+
+#tela9>div:nth-of-type(6) {
+  margin-bottom: 50px;
+}
+
+#tela9 .bloquinho {
+  width: 90%;
+  position: relative;
+}
+
+#tela9 .acertou {
+  display: none;
+  position: absolute;
+  background-color: #0e836b;
+  color: white;
+  top: 72px;
+  right: 5px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+#tela9 .errou {
+  display: none;
+  position: absolute;
+  background-color: #d83c43;
+  color: white;
+  top: 72px;
+  right: 5px;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+
+#tela9 .caixaArrastaDestino>div>div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tela9 .caixaArrastaDestino>div{
+  cursor: pointer;
+}
+
+#tela9 .caixaArrastaDestino>div.acerto.selecionado{
+  border: 3px solid #0e836b;
+}
+
+#tela9 .caixaArrastaDestino>div.erro.selecionado{
+  border: 3px solid #d83c43;
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {
+  #tela9>div:nth-of-type(3) {
+    width: 90%;
+  }
+  #tela9{
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  #tela9>div:nth-of-type(3) {
+    width: 100%;
+  }
+
+  .caixaMensagem {
+    flex-direction: column;
+  }
+
+  .caixaMensagem>div:nth-of-type(1) {
+    width: 50%;
+    margin-bottom: 25px;
+  }
+
+  .caixaMensagem>div:nth-of-type(2) {
+    width: 90%;
+  }
+}
+
+@media (max-width:576px) {
+  .caixaMensagem>div:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+@media (max-width:420px) {}
+
+@media (max-width:320px) {}
